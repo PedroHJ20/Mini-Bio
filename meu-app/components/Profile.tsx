@@ -4,7 +4,6 @@ import { View, Text, Image, StyleSheet } from 'react-native';
 export default function Profile() {
   return (
     <View style={styles.container}>
-      {/* O caminho foi ajustado para voltar apenas uma pasta e acessar o assets */}
       <Image 
         source={require('../assets/images/perfil.png')} 
         style={styles.image} 
@@ -13,7 +12,7 @@ export default function Profile() {
       <Text style={styles.name}>Pedro Henrique Jerônimo Da Silva</Text>
       
       <Text style={styles.bio}>
-        Sou estudante do 3º período de Sistemas para Internet na Universidade Católica e atualmente trabalho como assistente de faturamento. 
+        Sou estudante do 4º período de Sistemas para Internet na Universidade Católica e atualmente trabalho como assistente de faturamento. 
         Tenho forte interesse em desenvolvimento web e busco sempre aplicar meus conhecimentos na criação de soluções eficientes.
       </Text>
     </View>
