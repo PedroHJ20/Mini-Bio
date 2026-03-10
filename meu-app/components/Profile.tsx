@@ -5,7 +5,7 @@ export default function Profile() {
     return (
         <View style={styles.container}>
             <Image
-                source={{ uri: 'https://github.com/PedroHJ20.png' }}
+                source={require('../../assets/images/perfil.png')}
                 style={styles.image}
             />
             <Text style={styles.name}>Pedro Henrique Jerônimo Da Silva</Text>
